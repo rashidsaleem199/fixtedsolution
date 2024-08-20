@@ -1,0 +1,43 @@
+{
+    "cartegroy1":[
+        {
+            "description":"Tips for Redesigning Your Bathroom",
+            "images":"images/img14.jpg",
+            "datetime":"Posted 03.17.2024",
+            "description2":"Construction",
+            "description1":"Work with your contractor to develop a realistic timeline that includes all phases of the renovation, from demolition to final touches"
+
+           
+        }
+    ],
+    "cartegroy2":[
+        {
+            "description":"Tips for Redesigning Your Bathroom",
+            "images":"images/img15.jpg",
+            "datetime":"Posted 05.17.2024",
+            "description2":"Plumber",
+            "description1":"Look for licensed and insured plumbers with good reviews. Ask friends and family for recommendations."
+
+
+
+           
+        }
+    ],
+    "cartegroy3":[
+        {
+           
+
+            "description":"Tips for Redesigning Your Bathroom",
+            "images":"images/img16.jpg",
+            "datetime":"Posted 07.17.2024",
+            "description2":"Repair Roof",
+            "description1":" Keep in touch with your contractor and plumber to ensure everyone is on the same page and any issues are addressed promptly"
+
+            
+        }
+    ]
+   
+    
+ 
+ 
+}

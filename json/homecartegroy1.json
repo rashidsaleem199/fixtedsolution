@@ -1,0 +1,33 @@
+{
+    "cartegroy1":[
+        {
+            "description":"EXTERIOR DESIGN",
+            "images":"images/img02.jpg",
+            "description1":"Exterior design is the process of designing the external facade of a structure or space. This encompasses various aspects ."
+
+           
+        }
+    ],
+    "cartegroy2":[
+        {
+            "description":"HOME BUILDING",
+            "images":"images/img03.jpg",
+            "description1":"Home building is the process of constructing a up, involving a series of well-planned and executed steps. It encompasses various phases, ."
+
+
+           
+        }
+    ],
+    "cartegroy3":[
+        {
+            "description":"BUILDING RENOVATION",
+            "images":"images/img04.jpg",
+            "description1":"Building renovation is the process of improving, an existing structure to enhance its functionality, aesthetics, and value.  :"
+
+
+            
+        }
+    ]
+ 
+ 
+}
