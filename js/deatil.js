@@ -122,6 +122,6 @@ $("#cartRows").html(productsRows)
 let count = cartproducts.length;
 $('#cartCount').html(count)
 $('.total').html(parseFloat(subTotal));
-$("#checkOut").click(function(){
-	alert('')
-})
+// $("#checkOut").click(function(){
+// 	alert('')
+// })

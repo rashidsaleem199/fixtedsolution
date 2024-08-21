@@ -39,7 +39,11 @@
 							<ul class="contact-list list-unstyled">
 								<li><i class="icon fa fa-clock-o"></i> Opening Hours: Mon-Fri: 9am-6pm; Sat-Sun: 10am - 1pm</li>
 							</ul>
-						
+							<ul class="sign-up list-unstyled">
+								<li><a href="#popup1" class="lightbox">log in</a></li>
+								<li>|</li>
+								<li><a href="#"><i class="fa fa-shopping-cart" ><span class="ml-5" id="cartCount"></span></i></a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -57,17 +61,14 @@
 							<!-- nav of the page -->
 							<nav id="nav">
 								<ul class="list-unstyled">
-									<li>
+									<li class="active">
 										<a href="home.html">Home</a>
 									
 									</li>
 									<li><a href="about.html">About us</a></li>
-									<li class="active">
-										<a href="#">services</a>
-										<ul class="list-unstyled drop-down">
-											<li><a href="service.html">Services List</a></li>
-											<!-- <li><a href="service-detail.html">Services Details</a></li> -->
-										</ul>
+									<li>
+										<a href="service.html">services</a>
+										
 									</li>
 									<li>
 										<a href="#">projects</a>
@@ -78,20 +79,11 @@
 									</li>
 									<li>
 										<a href="faq.html">faq</a>
-										<!-- <ul class="list-unstyled drop-down">
-											<li><a href="404page.html">404 page</a></li>
-											<li><a href="faq.html">faq</a></li>
-											<li><a href="login.html">login</a></li>
-											<li><a href="checkout.html">Checkout</a></li>
-											<li><a href="cart.html">Cart</a></li>
-										</ul> -->
+										
 									</li>
 									<li>
-										<a href="#">SHOP</a>
-										<ul class="list-unstyled drop-down">
-											<li><a href="shop.html">Shop List</a></li>
-											<!-- <li><a href="shop-detail.html">Shop Details</a></li> -->
-										</ul>
+										<a href="shop.html">Shop</a>
+										
 									</li>
 									<li>
 										<a href="#">Blog</a>
@@ -114,7 +106,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 text-center">
-							<h1 class="main-heading3 text-uppercase">Construction</h1>
+							<h1 class="main-heading3 text-uppercase" id="bannerHeading">Construction</h1>
 							<!-- breadcrumbs of the page -->
 							<nav class="breadcrumbs text-center">
 								<ul class="list-unstyled">
@@ -122,7 +114,7 @@
 									<li>></li>
 									<li><a href="service.html">Services</a></li>
 									<li>></li>
-									<li>Construction</li>
+									<li id="serviceBreadcrum"></li>
 								</ul>
 							</nav>
 						</div>
@@ -132,23 +124,14 @@
 			<!-- Service detail of the page -->
 			<section class="service-detail container">
 				<div class="row">
-					<div class="col-xs-12 col-sm-8">
-						<div class="img-holder">
-							<img src="images/img57.jpg" alt="image description" class="img-responsive">
-						</div>
-						<h2>Construction is the process of constructing a <br>building or infrastructure.</h2>
-						<span class="fst">Construction differs from manufacturing in that manufacturing typically involves mass production of similar items without a designated purchaser, while construction typically takes place on location for a known client.Construction as an industry comprises six to nine percent of the gross domestic product of developed countries. Construction starts with planning, design, and financing and continues until the project is built and ready for use.</span>
-						<span class="scd">Large-scale construction requires collaboration across multiple disciplines. An architect normally manages the job, and a construction manager, design engineer. For the successful execution of a project, effective planning is essential. Those involved with the design and execution of the infrastructure in question must consider zoning requirements, the environmental impact of the job, the successful scheduling, budgeting, construction-site safety, etc.</span>
+					<div class="col-xs-12 col-sm-8" id="detailOption">
+						
 					</div>
 					<div class="col-xs-12 col-sm-4">
 						<div class="widget">
-							<ul class="side-nav list-unstyled">
-								<li><a href="#">Construction</a></li>
-								<li><a href="#">Plumbing</a></li>
-								<li><a href="#">Roofing</a></li>
-								<li><a href="#">General contractor</a></li>
-								<li><a href="#">Extertior design</a></li>
-								<li><a href="#">Building renovation</a></li>
+							<ul class="side-nav list-unstyled" id="serviceLink">
+								
+								
 							</ul>
 						</div>
 					</div>
@@ -240,6 +223,8 @@
 	<!-- include jQuery -->
 	<script src="js/plugins.js"></script>
 	<!-- include jQuery -->
+	<script src="js/servicedetial.js"></script>
+
 	<script src="js/jquery.main.js"></script>
 	<div id="style-changer" data-src="inc/style-changer.html"></div>
 </body>
