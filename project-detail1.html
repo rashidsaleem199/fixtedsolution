@@ -57,7 +57,7 @@
 							<!-- nav of the page -->
 							<nav id="nav">
 								<ul class="list-unstyled">
-									<li class="active">
+									<li>
 										<a href="home.html">Home</a>
 									
 									</li>
@@ -66,12 +66,12 @@
 										<a href="service.html">services</a>
 										
 									</li>
-									<li>
-										<a href="#">projects</a>
-										<ul class="list-unstyled drop-down">
+									<li class="active">
+										<a href="project2.html">projects</a>
+										<!-- <ul class="list-unstyled drop-down">
 										<li><a href="project2.html">Building Desing </a></li>
 										<li><a href="project-detail1.html">last project</a></li>
-										</ul>
+										</ul> -->
 									</li>
 									<li>
 										<a href="faq.html">faq</a>
@@ -81,12 +81,12 @@
 										<a href="shop.html">Shop</a>
 										
 									</li>
-									<li>
+									<!-- <li>
 										<a href="#">Blog</a>
 										<ul class="list-unstyled drop-down">
-											<li><a href="blog.html">Blog List</a></li>
+											<li class="active"><a href="blog.html">Blog List</a></li>
 										</ul>
-									</li>
+									</li> -->
 									<li><a href="contact.html">contact us</a></li>
 								</ul>
 							</nav>
@@ -102,15 +102,15 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 text-center">
-							<h1 class="main-heading3 text-uppercase">FUTURE BUILDING</h1>
+							<h1 class="main-heading3 text-uppercase" id="project-detail-1" >FUTURE BUILDING</h1>
 							<!-- breadcrumbs of the page -->
 							<nav class="breadcrumbs text-center">
 								<ul class="list-unstyled">
 									<li><a href="home.html">Home</a></li>
 									<li>></li>
-									<li><a href="project1.html">Projects</a></li>
+									<li><a href="project-detail1.html">Projects</a></li>
 									<li>></li>
-									<li>Future Building</li>
+									<li id="project-detail-2"></li>
 								</ul>
 							</nav>
 						</div>
@@ -120,7 +120,7 @@
 			<!-- project detail of the page -->
 			<section class="project-detail container">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12" id="project-detail-3">
 						<h3>Project Details</h3>
 						<!-- project list of the page -->
 						<ul class="project-list list-unstyled">
@@ -137,13 +137,14 @@
 					<div class="col-xs-12">
 						<h4>Project Overview</h4>
 						<p>In the modern industrialized world, construction usually involves the translation of designs into reality. A formal design team may be assembled to plan the physical proceedings, and to integrate those proceedings with the other parts. The design usually consists of drawings and specifications, usually prepared by a design team including Architect, civil engineers, mechanical engineers, electrical engineers, structural engineers, fire protection engineers, planning consultants, architectural consultants, and archaeological consultants. The design team is most commonly employed by (i.e. in contract with) the property owner. Under this system, once the design is completed by the design team, a number of construction companies or construction management companies may then be asked to make a bid for the work, either based directly on the design, or on the basis of drawings and a bill of quantities provided by a quantity surveyor. Following evaluation of bids, the owner typically awards a contract to the most cost efficient bidder.</p>
-						<div class="img-holder">
-							<img src="images/Tim-Fu_AI-1.jpg" alt="image description" class="img-responsive" style="width: 98%; height: 99%;">
+						<div class="img-holder" id="project-img">
+
 						</div>
+						
 						<div class="img-holder">
-							<div class="img-col overlay">
-								<img src="images/Tim-Fu_AI-1.jpg" alt="image description" class="img-responsive" style="width: 350px; height: 250px;">
-								<a href="images/Tim-Fu_AI-1.jpg" class="ti-zoom-in lightbox"></a>
+							<div class="img-col overlay ti-zoom-in lightbox" id="project-img2" style="width: 350px; height: 250px;">
+								
+								<a href="images/Tim-Fu_AI-1.jpg" id="project-img2" class="ti-zoom-in lightbox"></a>
 							</div>
 							<div class="img-col overlay">
 								<img src="images/00_MB-trans.jpg" alt="image description" class="img-responsive" style="width: 350px; height: 250px;">
@@ -222,6 +223,7 @@
 	<script src="js/plugins.js"></script>
 	<!-- include jQuery -->
 	<script src="js/jquery.main.js"></script>
+	<script src="js/projectdetail.js"></script>
 	<div id="style-changer" data-src="inc/style-changer.html"></div>
 </body>
 

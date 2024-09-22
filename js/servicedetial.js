@@ -18,7 +18,7 @@ fetch("json/servicecartegroy.json")
             // console.log(objectsKey.description1)
          col=`
     	<div class="img-holder">
-							<img src="${objectsKey.images}" alt="image description" class="img-responsive">
+							<img src="${objectsKey.images1}" alt="image description" class="img-responsive" style="width:100%; height:10%;">
 						</div>
 						<h2>Construction is the process of constructing a <br>building or infrastructure.</h2>
 						<h2>${objectsKey.description}</h2>

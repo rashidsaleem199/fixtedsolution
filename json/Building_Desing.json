@@ -3,7 +3,8 @@
     {
         "description":"Model House",
        "images":"images/457cbde136ad6686e964bbe8f728df73.jpg",
-         "description1":"Interdior Design"
+         "description1":"Interdior Design",
+      "images1":"images/457cbde136ad6686e964bbe8f728df73.jpg"
 
       
        
@@ -12,9 +13,8 @@
     {
         "description":"Model House",
        "images":"images/FUTURE-OF-RESIDENTIAL-BUILDING-DESIGN-IN-ARCHITECTURE.webp",
-         "description1":"Interdior Design "
-
-       
+         "description1":"Interdior Design ",
+       "images1":"images/FUTURE-OF-RESIDENTIAL-BUILDING-DESIGN-IN-ARCHITECTURE.webp"
     }
 ],
 "cartegroy3":[
@@ -23,7 +23,9 @@
 
         "description":"Model House",
       "images":"images/108a83223cf80ad23d3ed58ef49f8491.jpg",
-       "description1":"Interdior Design"
+       "description1":"Interdior Design",
+       "images1":"images/108a83223cf80ad23d3ed58ef49f8491.jpg"
+
 
         
     }
@@ -32,8 +34,8 @@
         {
             "description":"Model House",
            "images":"images/Tim-Fu_AI-1.jpg",
-             "description1":"Interdior Design"
-          
+             "description1":"Interdior Design",
+             "images1":"images/Tim-Fu_AI-1.jpg"          
            
         }
     ],
@@ -41,7 +43,8 @@
         {
             "description":"Model House",
             "images":"images/img85.jpg",
-             "description1":"Interdior Design"
+             "description1":"Interdior Design",
+             "images1":"images/img85.jpg"
 
 
            
@@ -51,7 +54,8 @@
         {
            "description":"Model House",
            "images":"images/3cecc17bc55d02a3039f0d01d786c1fe.webp",
-           "description1":" Interdior Design"
+           "description1":" Interdior Design",
+           "images1":"images/3cecc17bc55d02a3039f0d01d786c1fe.webp"
 
             
         }
@@ -60,7 +64,8 @@
         {
             "description":"Model House",
             "images":"images/pexels-pixabay-269077.jpg",
-             "description1":"Interdior Design"
+            "description1":"Interdior Design",
+            "images1":"images/pexels-pixabay-269077.jpg"
     
           
            
@@ -70,7 +75,8 @@
         {
             "description":"Model House",
             "images":"images/CAP photo 3.jpg",
-             "description1":"Interdior Design "
+            "description1":"Interdior Design",
+            "images1":"images/CAP photo 3.jpg"
     
     
            
@@ -91,7 +97,8 @@
             {
                 "description":"Model House",
                 "images":"images/tessalace_studio-ardete_15.jpg",
-                 "description1":"Interdior Design"
+                "description1":"Interdior Design",
+                "images1":"images/tessalace_studio-ardete_15.jpg"
               
                
             }
@@ -100,7 +107,8 @@
             {
                 "description":"Model House",
                 "images":"images/modern-hotel-building-architecture-exterior-design.jpg",
-                 "description1":"Interdior Design"
+                "description1":"Interdior Design",
+                "images1":"images/modern-hotel-building-architecture-exterior-design.jpg"
     
     
                
@@ -110,7 +118,8 @@
             {
                "description":"Model House",
                "images":"images/img78.jpg",
-               "description1":"Interdior Design"
+               "description1":"Interdior Design",
+               "images1":"images/img78.jpg"
                
                 
             }

@@ -11,7 +11,7 @@ fetch("json/Building_Desing.json")
       <div class="col overlay building">
 						<img src="${objectsKey.images}" alt="image description" class="img-responsive"style="width: 450px;height: 250px;">
 						<div class="over text-center">
-							<strong class="title text-uppercase"><a href="prject-detail1.html">${objectsKey.description}</a></strong>
+							<strong class="title text-uppercase"><a href="project-detail1.html?project_id=${key}">${objectsKey.description}</a></strong>
 							<span class="sub-title">${objectsKey.description}</span>
 						</div>
 					</div>`

@@ -57,7 +57,7 @@
 							<!-- nav of the page -->
 							<nav id="nav">
 								<ul class="list-unstyled">
-									<li class="active">
+									<li>
 										<a href="home.html">Home</a>
 									
 									</li>
@@ -68,10 +68,10 @@
 									</li>
 									<li>
 										<a href="#">projects</a>
-										<ul class="list-unstyled drop-down">
+										<!-- <ul class="list-unstyled drop-down">
 										<li><a href="project2.html">Building Desing </a></li>
 										<li><a href="project-detail1.html">last project</a></li>
-										</ul>
+										</ul> -->
 									</li>
 									<li>
 										<a href="faq.html">faq</a>
@@ -81,12 +81,12 @@
 										<a href="shop.html">Shop</a>
 										
 									</li>
-									<li>
+									<!-- <li>
 										<a href="#">Blog</a>
 										<ul class="list-unstyled drop-down">
-											<li><a href="blog.html">Blog List</a></li>
+											<li class="active"><a href="blog.html">Blog List</a></li>
 										</ul>
-									</li>
+									</li> -->
 									<li><a href="contact.html">contact us</a></li>
 								</ul>
 							</nav>
@@ -139,7 +139,7 @@
 							</div>
 							<!-- comment block of the page -->
 							<div class="comments-block">
-								<h4>3 Comment</h4>
+								<h4>Reviews</h4>
 								<!-- comment area of the page -->
 								<article class="comment-area">
 									<a href="#" class="img"><img src="images/img95.jpg" alt="image description" class="img-responsive"></a>
@@ -187,13 +187,16 @@
 									<fieldset>
 										<div class="form-group">
 											<div class="col">
-												<input type="text" class="form-control" placeholder="Your Name">
+												<input type="text" id="name" class="form-control" placeholder="Your Name">
+												<span></span>
 											</div>
 											<div class="col">
-												<input type="email" class="form-control" placeholder="Your Email">
+												<input type="email" id="email" class="form-control" placeholder="Your Email">
+												<span></span>
 											</div>
 										</div>
-										<textarea class="form-control" placeholder="Your Message"></textarea>
+										<textarea class="form-control" id="name" placeholder="Your Message"></textarea>
+										<span></span>
 										<button type="submit" class="btn text-uppercase text-center">POST COMMENT</button>
 									</fieldset>
 								</form>
@@ -201,42 +204,24 @@
 						</article>
 						<!-- sidebar of the page -->
 						<aside id="sidebar">
-							<!-- widget of the page -->
-							<section class="widget">
-								<h3 class="text-uppercase">Recent Posts</h3>
-								<ul class="list-unstyled widget-nav">
-									<li><a href="#"><i class="ti-angle-right"></i> Overalls with logo as a method of advertising</a></li>
-									<li><a href="#"><i class="ti-angle-right"></i> The main objectives of the marketer</a></li>
-									<li><a href="#"><i class="ti-angle-right"></i> Recession is a good opportunity to deal a deathblow to the competitors</a></li>
-								</ul>
-							</section>
-							<!-- widget of the page -->
-							<section class="widget">
-								<h3 class="text-uppercase">ARCHIVES</h3>
-								<ul class="list-unstyled widget-nav text-uppercase">
-									<li><a href="#"><i class="ti-angle-right"></i> DEC 2016 (1)</a></li>
-									<li><a href="#"><i class="ti-angle-right"></i> NOV 2016 (3)</a></li>
-									<li><a href="#"><i class="ti-angle-right"></i> OCT 2016 (1)</a></li>
-									<li><a href="#"><i class="ti-angle-right"></i> SEP 2016 (4)</a></li>
-									<li><a href="#"><i class="ti-angle-right"></i> AUG 2016 (1)</a></li>
-								</ul>
-							</section>
-							<!-- widget of the page -->
-							<section class="widget">
-								<h3 class="text-uppercase">Tags</h3>
-								<ul class="list-unstyled tags-list">
-									<li><a href="contact.html">Construction</a></li>
-									<li><a href="contact.html">Roofing</a></li>
-									<li><a href="contact.html">Art</a></li>
-									<li><a href="contact.html">Safety</a></li>
-									<li><a href="contact.html">Plumbing</a></li>
-									<li><a href="contact.html">Vicin</a></li>
-								</ul>
-							</section>
+							
+							
+												<section class="widget">
+													<h3 class="text-uppercase">Tags</h3>
+													<ul class="list-unstyled tags-list">
+														<li><a href="contact.html">Construction</a></li>
+														<li><a href="contact.html">Roofing</a></li>
+														<li><a href="contact.html">Art</a></li>
+														<li><a href="contact.html">Safety</a></li>
+														<li><a href="contact.html">Plumbing</a></li>
+														<li><a href="contact.html">Vicin</a></li>
+														<li><a href="checkout.html">Services</a></li>
+													</ul>
+												</section>
 						</aside>
 					</div>
 				</div>
-			</div>
+		</div>
 		</main>
 	<!-- footer of the page -->
 	<footer id="footer">
@@ -300,6 +285,7 @@
 	<script src="js/plugins.js"></script>
 	<!-- include jQuery -->
 	<script src="js/jquery.main.js"></script>
+	<script src="js/contactus.js"></script>
 	<div id="style-changer" data-src="inc/style-changer.html"></div>
 </body>
 

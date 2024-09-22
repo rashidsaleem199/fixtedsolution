@@ -2,7 +2,8 @@
     {
         "description":"Tower Crane",
         "images":"images/icon04.png",
-         "description1":"might refer to the specific terminology, instructions, or documentation associated with tower cranes, which are commonly used in construction for lifting heavy materials."
+         "description1":"might refer to the specific terminology, instructions, or documentation associated with tower cranes, which are commonly used in construction for lifting heavy materials.",
+         "images1":"images/tower.jpg"
 
       
        
@@ -12,8 +13,8 @@
     {
         "description":"Pencil Ruler",
         "images":"images/icon05.png",
-         "description1":"The ter can refer to the basic and straightforward style of text often used in school or technical drawings. This style is typically characterized by clear, precise, "
-
+         "description1":"The ter can refer to the basic and straightforward style of text often used in school or technical drawings. This style is typically characterized by clear, precise, ",
+       "images1":"images/images.jpg"
 
        
     }
@@ -24,8 +25,8 @@
 
         "description":"BUILDING",
         "images":"images/icon06.png",
-       "description1":"The Capitol Distribution Warehouse is undergoing a comprehensive renovation to improve efficiency, enhance safety, and modernize the facility to meet current industry standards."
-
+       "description1":"The Capitol Distribution Warehouse is undergoing a comprehensive renovation to improve efficiency, enhance safety, and modernize the facility to meet current industry standards.",
+        "images1":"images/building.jpg"
         
     }
 ],
@@ -33,7 +34,8 @@
         {
             "description":"Construction",
             "images":"images/icon01.png",
-             "description1":"The Bernard Coliseum is undergoing a significant renovation to modernize facilities, improve safety, and enhance the overall experience for visitors."
+             "description1":"The Bernard Coliseum is undergoing a significant renovation to modernize facilities, improve safety, and enhance the overall experience for visitors.",
+        "images1":"images/construction.jpg"
           
            
         }
@@ -42,7 +44,8 @@
         {
             "description":"Plumbing",
             "images":"images/icon02.png",
-             "description1":"Revamping your home decor can breathe new life into your living space. Here are some of our favorite home decor trends that can inspire your next makeover:"
+             "description1":"Revamping your home decor can breathe new life into your living space. Here are some of our favorite home decor trends that can inspire your next makeover:",
+        "images1":"images/pumbling.jpg"
 
 
            
@@ -52,12 +55,12 @@
         {
            "description":"Roofing",
             "images":"images/icon03.png",
-           "description1":" generally refers to the terminology, guidelines, and information related to roofing,"
+           "description1":" generally refers to the terminology, guidelines, and information related to roofing,",
+        "images1":"images/roofing.jpg"
 
             
         }
     ]
-   
  
 
 }

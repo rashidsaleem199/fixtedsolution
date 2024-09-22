@@ -14,7 +14,7 @@ fetch("json/homecartegroy1.json")
 								<div class="over text-center">
 									<h2 class="text-uppercase">${objectsKey.description}</h2>
 									<p>${objectsKey.description1}</p>
-									<a href="service-detail.html" class="read-more text-uppercase">Read more</a>
+									<a href="blog-detail.html" class="read-more text-uppercase">Read more</a>
 								</div>
 							</div>
 						</div>
